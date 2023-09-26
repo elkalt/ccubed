@@ -1,0 +1,38 @@
+[
+  {
+    "continent": "Asia",
+    "population": 4751819588,
+    "density": 147.8560679417457,
+    "worldPop": 0.5935933935743574
+  },
+  {
+    "continent": "Africa",
+    "population": 1460476458,
+    "density": 48.17198497141777,
+    "worldPop": 0.1824415175881205
+  },
+  {
+    "continent": "Europe",
+    "population": 741869197,
+    "density": 32.24058834140108,
+    "worldPop": 0.09267368974773321
+  },
+  {
+    "continent": "North America",
+    "population": 604155369,
+    "density": 24.919606224636695,
+    "worldPop": 0.07547059165220103
+  },
+  {
+    "continent": "South America",
+    "population": 439719009,
+    "density": 24.657073403126788,
+    "worldPop": 0.05492933684406189
+  },
+  {
+    "continent": "Oceania",
+    "population": 45575769,
+    "density": 5.352272719265672,
+    "worldPop": 0.00569328756794354
+  }
+]

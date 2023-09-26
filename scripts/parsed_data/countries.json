@@ -1,0 +1,938 @@
+{
+  "India": {
+    "available": true,
+    "population": 1428627663
+  },
+  "China": {
+    "available": true,
+    "population": 1425671352
+  },
+  "United States": {
+    "available": true,
+    "population": 339996563
+  },
+  "Indonesia": {
+    "available": true,
+    "population": 277534122
+  },
+  "Pakistan": {
+    "available": true,
+    "population": 240485658
+  },
+  "Nigeria": {
+    "available": true,
+    "population": 223804632
+  },
+  "Brazil": {
+    "available": true,
+    "population": 216422446
+  },
+  "Bangladesh": {
+    "available": true,
+    "population": 172954319
+  },
+  "Russia": {
+    "available": true,
+    "population": 144444359
+  },
+  "Mexico": {
+    "available": true,
+    "population": 128455567
+  },
+  "Ethiopia": {
+    "available": true,
+    "population": 126527060
+  },
+  "Japan": {
+    "available": true,
+    "population": 123294513
+  },
+  "Philippines": {
+    "available": true,
+    "population": 117337368
+  },
+  "Egypt": {
+    "available": true,
+    "population": 112716598
+  },
+  "DR Congo": {
+    "available": true,
+    "population": 102262808
+  },
+  "Vietnam": {
+    "available": true,
+    "population": 98858950
+  },
+  "Iran": {
+    "available": true,
+    "population": 89172767
+  },
+  "Turkey": {
+    "available": true,
+    "population": 85816199
+  },
+  "Germany": {
+    "available": true,
+    "population": 83294633
+  },
+  "Thailand": {
+    "available": true,
+    "population": 71801279
+  },
+  "United Kingdom": {
+    "available": true,
+    "population": 67736802
+  },
+  "Tanzania": {
+    "available": true,
+    "population": 67438106
+  },
+  "France": {
+    "available": true,
+    "population": 64756584
+  },
+  "South Africa": {
+    "available": true,
+    "population": 60414495
+  },
+  "Italy": {
+    "available": true,
+    "population": 58870762
+  },
+  "Kenya": {
+    "available": true,
+    "population": 55100586
+  },
+  "Myanmar": {
+    "available": true,
+    "population": 54577997
+  },
+  "Colombia": {
+    "available": true,
+    "population": 52085168
+  },
+  "South Korea": {
+    "available": true,
+    "population": 51784059
+  },
+  "Uganda": {
+    "available": true,
+    "population": 48582334
+  },
+  "Sudan": {
+    "available": true,
+    "population": 48109006
+  },
+  "Spain": {
+    "available": true,
+    "population": 47519628
+  },
+  "Argentina": {
+    "available": true,
+    "population": 45773884
+  },
+  "Algeria": {
+    "available": true,
+    "population": 45606480
+  },
+  "Iraq": {
+    "available": true,
+    "population": 45504560
+  },
+  "Afghanistan": {
+    "available": true,
+    "population": 42239854
+  },
+  "Poland": {
+    "available": true,
+    "population": 41026067
+  },
+  "Canada": {
+    "available": true,
+    "population": 38781291
+  },
+  "Morocco": {
+    "available": true,
+    "population": 37840044
+  },
+  "Saudi Arabia": {
+    "available": true,
+    "population": 36947025
+  },
+  "Ukraine": {
+    "available": true,
+    "population": 36744634
+  },
+  "Angola": {
+    "available": true,
+    "population": 36684202
+  },
+  "Uzbekistan": {
+    "available": true,
+    "population": 35163944
+  },
+  "Yemen": {
+    "available": true,
+    "population": 34449825
+  },
+  "Peru": {
+    "available": true,
+    "population": 34352719
+  },
+  "Malaysia": {
+    "available": true,
+    "population": 34308525
+  },
+  "Ghana": {
+    "available": true,
+    "population": 34121985
+  },
+  "Mozambique": {
+    "available": true,
+    "population": 33897354
+  },
+  "Nepal": {
+    "available": true,
+    "population": 30896590
+  },
+  "Madagascar": {
+    "available": true,
+    "population": 30325732
+  },
+  "Ivory Coast": {
+    "available": true,
+    "population": 28873034
+  },
+  "Venezuela": {
+    "available": true,
+    "population": 28838499
+  },
+  "Cameroon": {
+    "available": true,
+    "population": 28647293
+  },
+  "Niger": {
+    "available": true,
+    "population": 27202843
+  },
+  "Australia": {
+    "available": true,
+    "population": 26439111
+  },
+  "North Korea": {
+    "available": true,
+    "population": 26160821
+  },
+  "Taiwan": {
+    "available": true,
+    "population": 23923276
+  },
+  "Mali": {
+    "available": true,
+    "population": 23293698
+  },
+  "Burkina Faso": {
+    "available": true,
+    "population": 23251485
+  },
+  "Syria": {
+    "available": true,
+    "population": 23227014
+  },
+  "Sri Lanka": {
+    "available": true,
+    "population": 21893579
+  },
+  "Malawi": {
+    "available": true,
+    "population": 20931751
+  },
+  "Zambia": {
+    "available": true,
+    "population": 20569737
+  },
+  "Romania": {
+    "available": true,
+    "population": 19892812
+  },
+  "Chile": {
+    "available": true,
+    "population": 19629590
+  },
+  "Kazakhstan": {
+    "available": true,
+    "population": 19606633
+  },
+  "Chad": {
+    "available": true,
+    "population": 18278568
+  },
+  "Ecuador": {
+    "available": true,
+    "population": 18190484
+  },
+  "Somalia": {
+    "available": true,
+    "population": 18143378
+  },
+  "Guatemala": {
+    "available": true,
+    "population": 18092026
+  },
+  "Senegal": {
+    "available": true,
+    "population": 17763163
+  },
+  "Netherlands": {
+    "available": true,
+    "population": 17618299
+  },
+  "Cambodia": {
+    "available": true,
+    "population": 16944826
+  },
+  "Zimbabwe": {
+    "available": true,
+    "population": 16665409
+  },
+  "Guinea": {
+    "available": true,
+    "population": 14190612
+  },
+  "Rwanda": {
+    "available": true,
+    "population": 14094683
+  },
+  "Benin": {
+    "available": true,
+    "population": 13712828
+  },
+  "Burundi": {
+    "available": true,
+    "population": 13238559
+  },
+  "Tunisia": {
+    "available": true,
+    "population": 12458223
+  },
+  "Bolivia": {
+    "available": true,
+    "population": 12388571
+  },
+  "Haiti": {
+    "available": true,
+    "population": 11724763
+  },
+  "Belgium": {
+    "available": true,
+    "population": 11686140
+  },
+  "Jordan": {
+    "available": true,
+    "population": 11337052
+  },
+  "Dominican Republic": {
+    "available": true,
+    "population": 11332972
+  },
+  "Cuba": {
+    "available": true,
+    "population": 11194449
+  },
+  "South Sudan": {
+    "available": true,
+    "population": 11088796
+  },
+  "Sweden": {
+    "available": true,
+    "population": 10612086
+  },
+  "Honduras": {
+    "available": true,
+    "population": 10593798
+  },
+  "Czech Republic": {
+    "available": true,
+    "population": 10495295
+  },
+  "Azerbaijan": {
+    "available": true,
+    "population": 10412651
+  },
+  "Greece": {
+    "available": true,
+    "population": 10341277
+  },
+  "Papua New Guinea": {
+    "available": true,
+    "population": 10329931
+  },
+  "Portugal": {
+    "available": true,
+    "population": 10247605
+  },
+  "Hungary": {
+    "available": true,
+    "population": 10156239
+  },
+  "Tajikistan": {
+    "available": true,
+    "population": 10143543
+  },
+  "United Arab Emirates": {
+    "available": true,
+    "population": 9516871
+  },
+  "Belarus": {
+    "available": true,
+    "population": 9498238
+  },
+  "Israel": {
+    "available": true,
+    "population": 9174520
+  },
+  "Togo": {
+    "available": true,
+    "population": 9053799
+  },
+  "Austria": {
+    "available": true,
+    "population": 8958960
+  },
+  "Switzerland": {
+    "available": true,
+    "population": 8796669
+  },
+  "Sierra Leone": {
+    "available": true,
+    "population": 8791092
+  },
+  "Laos": {
+    "available": true,
+    "population": 7633779
+  },
+  "Hong Kong": {
+    "available": true,
+    "population": 7491609
+  },
+  "Serbia": {
+    "available": true,
+    "population": 7149077
+  },
+  "Nicaragua": {
+    "available": true,
+    "population": 7046310
+  },
+  "Libya": {
+    "available": true,
+    "population": 6888388
+  },
+  "Paraguay": {
+    "available": true,
+    "population": 6861524
+  },
+  "Kyrgyzstan": {
+    "available": true,
+    "population": 6735347
+  },
+  "Bulgaria": {
+    "available": true,
+    "population": 6687717
+  },
+  "Turkmenistan": {
+    "available": true,
+    "population": 6516100
+  },
+  "El Salvador": {
+    "available": true,
+    "population": 6364943
+  },
+  "Republic of the Congo": {
+    "available": true,
+    "population": 6106869
+  },
+  "Singapore": {
+    "available": true,
+    "population": 6014723
+  },
+  "Denmark": {
+    "available": true,
+    "population": 5910913
+  },
+  "Slovakia": {
+    "available": true,
+    "population": 5795199
+  },
+  "Central African Republic": {
+    "available": true,
+    "population": 5742315
+  },
+  "Finland": {
+    "available": true,
+    "population": 5545475
+  },
+  "Norway": {
+    "available": true,
+    "population": 5474360
+  },
+  "Liberia": {
+    "available": true,
+    "population": 5418377
+  },
+  "Palestine": {
+    "available": true,
+    "population": 5371230
+  },
+  "Lebanon": {
+    "available": true,
+    "population": 5353930
+  },
+  "New Zealand": {
+    "available": true,
+    "population": 5228100
+  },
+  "Costa Rica": {
+    "available": true,
+    "population": 5212173
+  },
+  "Ireland": {
+    "available": true,
+    "population": 5056935
+  },
+  "Mauritania": {
+    "available": true,
+    "population": 4862989
+  },
+  "Oman": {
+    "available": true,
+    "population": 4644384
+  },
+  "Panama": {
+    "available": true,
+    "population": 4468087
+  },
+  "Kuwait": {
+    "available": true,
+    "population": 4310108
+  },
+  "Croatia": {
+    "available": true,
+    "population": 4008617
+  },
+  "Eritrea": {
+    "available": true,
+    "population": 3748901
+  },
+  "Georgia": {
+    "available": true,
+    "population": 3728282
+  },
+  "Mongolia": {
+    "available": true,
+    "population": 3447157
+  },
+  "Moldova": {
+    "available": true,
+    "population": 3435931
+  },
+  "Uruguay": {
+    "available": true,
+    "population": 3423108
+  },
+  "Puerto Rico": {
+    "available": true,
+    "population": 3260314
+  },
+  "Bosnia and Herzegovina": {
+    "available": true,
+    "population": 3210847
+  },
+  "Albania": {
+    "available": true,
+    "population": 2832439
+  },
+  "Jamaica": {
+    "available": true,
+    "population": 2825544
+  },
+  "Armenia": {
+    "available": true,
+    "population": 2777970
+  },
+  "Gambia": {
+    "available": true,
+    "population": 2773168
+  },
+  "Lithuania": {
+    "available": true,
+    "population": 2718352
+  },
+  "Qatar": {
+    "available": true,
+    "population": 2716391
+  },
+  "Botswana": {
+    "available": true,
+    "population": 2675352
+  },
+  "Namibia": {
+    "available": true,
+    "population": 2604172
+  },
+  "Gabon": {
+    "available": true,
+    "population": 2436566
+  },
+  "Lesotho": {
+    "available": true,
+    "population": 2330318
+  },
+  "Guinea-Bissau": {
+    "available": true,
+    "population": 2150842
+  },
+  "Slovenia": {
+    "available": true,
+    "population": 2119675
+  },
+  "North Macedonia": {
+    "available": true,
+    "population": 2085679
+  },
+  "Latvia": {
+    "available": true,
+    "population": 1830211
+  },
+  "Equatorial Guinea": {
+    "available": true,
+    "population": 1714671
+  },
+  "Trinidad and Tobago": {
+    "available": true,
+    "population": 1534937
+  },
+  "Bahrain": {
+    "available": true,
+    "population": 1485509
+  },
+  "Timor-Leste": {
+    "available": true,
+    "population": 1360596
+  },
+  "Estonia": {
+    "available": true,
+    "population": 1322765
+  },
+  "Mauritius": {
+    "available": true,
+    "population": 1300557
+  },
+  "Cyprus": {
+    "available": true,
+    "population": 1260138
+  },
+  "Eswatini": {
+    "available": true,
+    "population": 1210822
+  },
+  "Djibouti": {
+    "available": true,
+    "population": 1136455
+  },
+  "Reunion": {
+    "available": true,
+    "population": 981796
+  },
+  "Fiji": {
+    "available": true,
+    "population": 936375
+  },
+  "Comoros": {
+    "available": true,
+    "population": 852075
+  },
+  "Guyana": {
+    "available": true,
+    "population": 813834
+  },
+  "Bhutan": {
+    "available": true,
+    "population": 787424
+  },
+  "Solomon Islands": {
+    "available": true,
+    "population": 740424
+  },
+  "Macau": {
+    "available": true,
+    "population": 704149
+  },
+  "Luxembourg": {
+    "available": true,
+    "population": 654768
+  },
+  "Montenegro": {
+    "available": true,
+    "population": 626485
+  },
+  "Suriname": {
+    "available": true,
+    "population": 623236
+  },
+  "Cape Verde": {
+    "available": true,
+    "population": 598682
+  },
+  "Western Sahara": {
+    "available": true,
+    "population": 587259
+  },
+  "Malta": {
+    "available": true,
+    "population": 535064
+  },
+  "Maldives": {
+    "available": true,
+    "population": 521020.99999999994
+  },
+  "Brunei": {
+    "available": true,
+    "population": 452524
+  },
+  "Bahamas": {
+    "available": true,
+    "population": 412623
+  },
+  "Belize": {
+    "available": true,
+    "population": 410825
+  },
+  "Guadeloupe": {
+    "available": true,
+    "population": 395839
+  },
+  "Iceland": {
+    "available": true,
+    "population": 375318
+  },
+  "Martinique": {
+    "available": true,
+    "population": 366981
+  },
+  "Mayotte": {
+    "available": true,
+    "population": 335995
+  },
+  "Vanuatu": {
+    "available": true,
+    "population": 334506
+  },
+  "French Guiana": {
+    "available": true,
+    "population": 312155
+  },
+  "French Polynesia": {
+    "available": true,
+    "population": 308872
+  },
+  "New Caledonia": {
+    "available": true,
+    "population": 292991
+  },
+  "Barbados": {
+    "available": true,
+    "population": 281995
+  },
+  "Sao Tome and Principe": {
+    "available": true,
+    "population": 231856
+  },
+  "Samoa": {
+    "available": true,
+    "population": 225681
+  },
+  "Curacao": {
+    "available": true,
+    "population": 192077
+  },
+  "Saint Lucia": {
+    "available": true,
+    "population": 180251
+  },
+  "Guam": {
+    "available": true,
+    "population": 172952
+  },
+  "Kiribati": {
+    "available": true,
+    "population": 133515
+  },
+  "Grenada": {
+    "available": true,
+    "population": 126183
+  },
+  "Micronesia": {
+    "available": true,
+    "population": 115224
+  },
+  "Jersey": {
+    "available": true,
+    "population": 111802
+  },
+  "Tonga": {
+    "available": true,
+    "population": 107773
+  },
+  "Seychelles": {
+    "available": true,
+    "population": 107660
+  },
+  "Aruba": {
+    "available": true,
+    "population": 106277
+  },
+  "Saint Vincent and the Grenadines": {
+    "available": true,
+    "population": 103698
+  },
+  "United States Virgin Islands": {
+    "available": true,
+    "population": 98750
+  },
+  "Antigua and Barbuda": {
+    "available": true,
+    "population": 94298
+  },
+  "Isle of Man": {
+    "available": true,
+    "population": 84710
+  },
+  "Andorra": {
+    "available": true,
+    "population": 80088
+  },
+  "Dominica": {
+    "available": true,
+    "population": 73040
+  },
+  "Cayman Islands": {
+    "available": true,
+    "population": 69310
+  },
+  "Bermuda": {
+    "available": true,
+    "population": 64069
+  },
+  "Guernsey": {
+    "available": true,
+    "population": 63544
+  },
+  "Greenland": {
+    "available": true,
+    "population": 56643
+  },
+  "Faroe Islands": {
+    "available": true,
+    "population": 53270
+  },
+  "Northern Mariana Islands": {
+    "available": true,
+    "population": 49796
+  },
+  "Saint Kitts and Nevis": {
+    "available": true,
+    "population": 47755
+  },
+  "Turks and Caicos Islands": {
+    "available": true,
+    "population": 46062
+  },
+  "Sint Maarten": {
+    "available": true,
+    "population": 44222
+  },
+  "American Samoa": {
+    "available": true,
+    "population": 43914
+  },
+  "Marshall Islands": {
+    "available": true,
+    "population": 41996
+  },
+  "Liechtenstein": {
+    "available": true,
+    "population": 39584
+  },
+  "Monaco": {
+    "available": true,
+    "population": 36297
+  },
+  "San Marino": {
+    "available": true,
+    "population": 33642
+  },
+  "Gibraltar": {
+    "available": true,
+    "population": 32688.000000000004
+  },
+  "Saint Martin": {
+    "available": true,
+    "population": 32077
+  },
+  "British Virgin Islands": {
+    "available": true,
+    "population": 31538
+  },
+  "Palau": {
+    "available": true,
+    "population": 18058
+  },
+  "Cook Islands": {
+    "available": true,
+    "population": 17044
+  },
+  "Anguilla": {
+    "available": true,
+    "population": 15899
+  },
+  "Nauru": {
+    "available": true,
+    "population": 12780
+  },
+  "Wallis and Futuna": {
+    "available": true,
+    "population": 11502
+  },
+  "Tuvalu": {
+    "available": true,
+    "population": 11396
+  },
+  "Saint Barthelemy": {
+    "available": true,
+    "population": 10994
+  },
+  "Saint Pierre and Miquelon": {
+    "available": true,
+    "population": 5840
+  },
+  "Montserrat": {
+    "available": true,
+    "population": 4386
+  },
+  "Falkland Islands": {
+    "available": true,
+    "population": 3791
+  },
+  "Niue": {
+    "available": true,
+    "population": 1935
+  },
+  "Tokelau": {
+    "available": true,
+    "population": 1893
+  },
+  "Vatican City": {
+    "available": true,
+    "population": 518
+  }
+}
