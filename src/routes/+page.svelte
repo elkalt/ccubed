@@ -198,7 +198,7 @@
       {/each}
     </div>
 
-    <div class="rules">
+    <div class="settings">
       {#if currentMode === "Casual"}
         <p>Three tries, population and location hints</p>
       {:else if currentMode === "Normal"}
@@ -212,6 +212,12 @@
       on:click={() => startGame()}>
       START
     </button>
+
+    <div class="rules">
+      <p>Enter a continent, country, or city that starts with the last letter of the previous location</p>
+      <p>For example, if the previous location was "United States", you could enter "Spain"</p>
+      <p>Once you enter a location, you cannot use it again</p>
+    </div>
   {:else if currentStatus === "playing"}
     <div class="play-container">
       <div class="stats">
@@ -337,7 +343,7 @@
     }
   }
 
-  .rules {
+  .settings {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -345,7 +351,23 @@
     padding: 1rem;
 
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 3rem;
+    font-size: 1rem;
+    text-align: center;
+
+    p {
       padding: 0;
       margin: 0;
     }
