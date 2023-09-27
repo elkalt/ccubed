@@ -183,7 +183,11 @@
 
 <header>
   <h1>CCUBED</h1>
-  <p>{ time }</p>
+  {#if currentStatus === "menu"}
+    <a href="/about">About</a>
+  {:else}
+    <p>{ time }</p>
+  {/if}
 </header>
 
 <div class="content-wrapper">
@@ -214,9 +218,12 @@
     </button>
 
     <div class="rules">
-      <p>Enter a continent, country, or city that starts with the last letter of the previous location</p>
-      <p>For example, if the previous location was "United States", you could enter "Spain"</p>
-      <p>Once you enter a location, you cannot use it again</p>
+      <div></div>
+      <div>
+        <p>Enter a continent, country, or city that starts with the last letter of the previous location</p>
+        <p>For example, if the previous location was "United States", you could enter "Spain"</p>
+        <p>Once you enter a location, you cannot use it again</p>
+      </div>
     </div>
   {:else if currentStatus === "playing"}
     <div class="play-container">
@@ -291,6 +298,18 @@
     h1 {
       font-size: 2rem;
     }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-light);
+      }
+    }
   }
 
   h1 {
@@ -360,10 +379,9 @@
   .rules {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     font-size: 1rem;
     text-align: center;
 
