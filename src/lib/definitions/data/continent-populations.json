@@ -34,5 +34,11 @@
     "population": 45575769,
     "density": 5.352272719265672,
     "worldPop": 0.00569328756794354
+  },
+  {
+    "continent": "Antarctica",
+    "population": 2500,
+    "density": 0,
+    "worldPop": 0
   }
 ]
