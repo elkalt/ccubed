@@ -2,6 +2,11 @@
   import "$lib/styles/app.scss";
 </script>
 
+<header>
+  <h1><a href="/">CCUBED</a></h1>
+  <p>About</p>
+</header>
+
 <div class="content-wrapper">
   <h1>About</h1>
   <p>Built using SvelteKit.  See the code on <a href="https://github.com/elkalt/ccubed">GitHub</a>.</p>
@@ -16,6 +21,39 @@
     justify-content: center;
     height: 100%;
     width: 100%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: default;
+
+    h1 {
+      font-size: 2rem;
+      padding: 0;
+      margin: 0;
+      
+      a {
+        color: var(--primary);
+        text-decoration: none;
+        cursor: pointer;
+  
+        &:hover {
+          color: var(--primary-light);
+        }
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 0;
+      margin: 0;
+    }
   }
 
   a {
