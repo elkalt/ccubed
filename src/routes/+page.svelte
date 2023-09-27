@@ -232,6 +232,9 @@
       {#if currentMode === "Casual"}
         <div>
           <button class="end-button"
+            style:background-color={!populationHintAvailable && !locationHintAvailable ? "var(--background-dark)" : ""}
+            style:color={!populationHintAvailable && !locationHintAvailable ? "var(--primary)" : ""}
+            style:cursor={!populationHintAvailable && !locationHintAvailable ? "default" : ""}
             on:click={() => getHint()}>
             Get hint
           </button>
