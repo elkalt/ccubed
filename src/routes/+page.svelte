@@ -166,7 +166,7 @@
           populationHint = value.population;
           locationTypeHint = "city";
           cityHint = key;
-          if (value.country) locationHintAvailable = true;
+          locationHintAvailable = true;
           break;
         }
       }
@@ -238,14 +238,15 @@
         </div>
         {#if showPopulationHint}
           <p>There is a { locationTypeHint } with { populationHint } citizens that starts with the letter { previous.slice(-1).toUpperCase() }</p>
-        {:else if showLocationHint}
+        {/if}
+        {#if showLocationHint}
           <p>The city is in the country { locationHint }</p>
         {/if}
       {/if}
       {#if repeat}
         <p>Already used</p>
       {:else if wrong}
-        <p>Not a continent, city, or state</p>
+        <p>Either not a continent, city, or state or starting with the wrong letter</p>
       {/if}
     </div>
   {:else if currentStatus === "finished"}
