@@ -82,7 +82,7 @@
 
   function checkLocation() {
     let input = inputValue;
-    let inputLower = input.toLowerCase();
+    let inputLower = input.toLowerCase().trim();
 
     let continentCheck = currentContinents.get(inputLower);
     let countryCheck = currentCountries.get(inputLower);

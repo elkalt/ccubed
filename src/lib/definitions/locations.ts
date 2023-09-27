@@ -1,8 +1,7 @@
 import type { LocationDetails } from '$lib/types/location-details';
 import continentData from '$lib/definitions/data/continent-populations.json';
 import countryData from '$lib/definitions/data/countries-table.json';
-import cityData from '$lib/definitions/data/world-city-listing-table.json';
-import usCityData from '$lib/definitions/data/us-cities-table.json';
+import cityData from '$lib/definitions/data/geonames-all-cities-with-a-population-50000.json';
 
 function loadContinents() {
   let continents: Map<string, LocationDetails> = new Map();
@@ -33,16 +32,8 @@ function loadCities() {
   for (let city of cityData) {
     let location: LocationDetails = {
       available: true,
-      population: city.pop2023,
+      population: city.population,
       country: city.country
-    };
-    cities.set(city.city.toLowerCase(), location);
-  }
-  for (let city of usCityData) {
-    let location: LocationDetails = {
-      available: true,
-      population: city.pop2023,
-      country: "United States"
     };
     cities.set(city.name.toLowerCase(), location);
   }
