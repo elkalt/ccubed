@@ -225,7 +225,7 @@
           bind:value={inputValue}
           bind:this={inputField}
           on:input={() => {if (inputValue === "") inputValue = previous.slice(-1).toUpperCase();}}
-          placeholder="Enter a location"
+          placeholder="Enter a continent, country, or city"
           autofocus/>
         <input type="submit">
       </form>
@@ -254,7 +254,7 @@
     </div>
   {:else if currentStatus === "finished"}
     <div class="play-container">
-      <h1>Congrats!</h1>
+      <h1>Game over</h1>
       <p>Time: { time }</p>
       <p>Count: { count }</p>
       <div>
