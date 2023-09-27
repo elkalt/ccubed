@@ -20,6 +20,7 @@
   let previous: string;
   let repeat: boolean;
   let wrong: boolean;
+  let used: {continents: string[], countries: string[], cities: string[]} = {continents: [], countries: [], cities: []};
   let inputValue: string = "";
   let inputField: HTMLInputElement;
 
@@ -42,6 +43,19 @@
     showLocationHint = false;
     previous = "";
     time = "00:00";
+    inputValue = "";
+    wrong = false;
+    repeat = false;
+    for (let continent of used.continents) {
+      currentContinents.get(continent)!.available = true;
+    }
+    for (let country of used.countries) {
+      currentCountries.get(country)!.available = true;
+    }
+    for (let city of used.cities) {
+      currentCities.get(city)!.available = true;
+    }
+    used = {continents: [], countries: [], cities: []};
     count = 0;
     if (currentMode === "Casual") {
       lives = 3;
@@ -86,18 +100,21 @@
         break check;
       }
       continentCheck.available = false;
+      used.continents.push(inputLower);
     } else if (countryCheck) {
       if (!countryCheck.available) {
         repeat = true;
         break check;
       }
       countryCheck.available = false;
+      used.countries.push(inputLower);
     } else if (cityCheck) {
       if (!cityCheck.available) {
         repeat = true;
         break check;
       }
       cityCheck.available = false;
+      used.cities.push(inputLower);
     } else {
       wrong = true;
     }
