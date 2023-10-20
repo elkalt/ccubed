@@ -20,9 +20,9 @@ function loadCountries() {
   for (let country of countryData) {
     let location: LocationDetails = {
       available: true,
-      population: country.pop2023
+      population: country.population
     };
-    countries.set(country.country.toLowerCase(), location);
+    countries.set(country.name.toLowerCase(), location);
   }
   return countries;
 }
