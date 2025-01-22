@@ -262,7 +262,7 @@
       {#if repeat}
         <p>Already used</p>
       {:else if wrong}
-        <p>Either not a continent, city, or state or starting with the wrong letter</p>
+        <p>Not a continent, country, or city</p>
       {/if}
     </div>
   {:else if currentStatus === "finished"}
