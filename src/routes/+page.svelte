@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { injectAnalytics } from '@vercel/analytics/sveltekit'
   import '$lib/styles/app.scss'
   import type { LocationDetails } from '$lib/types/location-details';
   import { Continents, Countries, Cities } from "$lib/definitions/locations";
