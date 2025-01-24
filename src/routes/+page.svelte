@@ -1,8 +1,11 @@
 <script lang="ts">
+  import { dev } from '$app/environment'
   import { injectAnalytics } from '@vercel/analytics/sveltekit'
   import '$lib/styles/app.scss'
   import type { LocationDetails } from '$lib/types/location-details';
   import { Continents, Countries, Cities } from "$lib/definitions/locations";
+
+  injectAnalytics({mode: dev ? 'development' : 'production'})
 
   let modes = ["Casual", "Normal", "Hard"]
   let currentMode: string = "Casual";
